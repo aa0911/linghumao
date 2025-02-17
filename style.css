@@ -38,12 +38,12 @@ button {
 }
 
 #yes {
-    background-color: #fff; /* 粉色 */
+    background-color: 	#3EB489; /* 粉色 */
     color: white;
 }
 
 #no {
-    background-color: #fff; /* 蓝色 */
+    background-color: #3EB489; /* 蓝色 */
     color: white;
     position: relative;
 }
@@ -54,7 +54,7 @@ button {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #ffdae0; /* 粉色 */
+    background-color: #fff; /* 粉色 */
     display: flex;
     flex-direction: column;
     align-items: center;
