@@ -117,7 +117,7 @@ body {
 
 @media (max-width: 768px) {
   body{
-    background-position: 40% 100%;
+    background-position: 35% 100%;
   }
   .topnav {
       flex-direction: column; /* Stack items vertically on small screens */
