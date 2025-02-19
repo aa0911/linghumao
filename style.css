@@ -8,13 +8,17 @@ body {
     height: 100vh; 
     overflow-x: hidden;
     margin: 0 auto; /* Center the body within the viewport */
+    background-image:url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: 90% 100%;
 
-
-    
 }
+
 .topnav {
     background-color: #b9bdf4d1;
-    position: absolute; /* Fix the navbar to the top */
+    position: relative; /* Fix the navbar to the top */
     width: 95%; /* Make it full width */
     z-index: 1000; /* Ensure it stays above other content */
     margin-top: 1%;
@@ -91,11 +95,7 @@ body {
 .menu a:hover {
     background-color: #ddd; /* Background on hover */
 }
-.background{
-  width: 100%;
 
-
-}
 .container {
   
   padding: 20px; /* Spacing inside the container */
@@ -116,6 +116,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  body{
+    background-position: 40% 100%;
+  }
   .topnav {
       flex-direction: column; /* Stack items vertically on small screens */
       height: 8%; /* Allow height to adjust */
