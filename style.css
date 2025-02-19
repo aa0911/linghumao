@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  height: 57px; /* Set the desired height for the logo */
+  height: 60px; /* Set the desired height for the logo */
   float: none;
   position: absolute;
   top: 50%;
@@ -88,14 +88,6 @@ body {
       flex-direction: column; /* Stack items vertically on small screens */
       height: auto; /* Allow height to adjust */
   }
-
-  .logo {
-        height: 35px; /* Adjust logo height for smaller screens */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
 
   .menu {
       position: static; /* Change to static positioning for dropdown */
