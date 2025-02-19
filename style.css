@@ -24,12 +24,6 @@ body {
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #c9c6ff;
@@ -61,3 +55,18 @@ body {
       text-align: left;
     }
   }
+
+  @media screen and (min-width: 601px) {
+    .topnav {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-between; /* Space between items */
+    }
+
+    .topnav a {
+        display: block; /* Ensure links are displayed */
+    }
+
+    .topnav .icon {
+        display: none; /* Hide icon */
+    }
+}
