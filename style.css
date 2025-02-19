@@ -7,6 +7,10 @@ body {
 .topnav {
     background-color: transparent;
     overflow: hidden;
+    position: fixed; /* Fix the navbar to the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Make it full width */
+    z-index: 1000; /* Ensure it stays above other content */
   }
   
   /* Style the links inside the navigation bar */
