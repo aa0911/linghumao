@@ -34,7 +34,36 @@ body {
   .topnav .icon {
     display: none;
   }
-   
+  
+  .menu-btn {
+    float: left; /* Float the button to the left */
+    font-size: 17px;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+.menu {
+    display: none; /* Hide the menu by default */
+    position: absolute; /* Position it to the left */
+    left: 0;
+    top: 100%; /* Position below the navbar */
+    background-color: white; /* Background color */
+    width: 200px; /* Width of the menu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for the menu */
+    z-index: 1000; /* Ensure it is above other content */
+}
+
+.menu a {
+    display: block; /* Make the links block elements */
+    padding: 10px 15px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+    color: black; /* Text color */
+}
+
+.menu a:hover {
+    background-color: #ddd; /* Background on hover */
+}
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -57,17 +86,3 @@ body {
     }
   }
 
-  @media screen and (min-width: 601px) {
-    .topnav {
-        display: flex; /* Use flexbox for layout */
-        justify-content: space-between; /* Space between items */
-    }
-
-    .topnav a {
-        display: block; /* Ensure links are displayed */
-    }
-
-    .topnav .icon {
-        display: none; /* Hide icon */
-    }
-}

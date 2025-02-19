@@ -6,3 +6,12 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function toggleMenu() {
+  var menu = document.getElementById("menu");
+  if (menu.style.display === "block") {
+      menu.style.display = "none"; // Hide the menu
+  } else {
+      menu.style.display = "block"; // Show the menu
+  }
+}
