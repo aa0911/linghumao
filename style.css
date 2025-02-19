@@ -82,3 +82,23 @@ body {
 .menu a:hover {
     background-color: #ddd; /* Background on hover */
 }
+
+@media (max-width: 768px) {
+  .topnav {
+      flex-direction: column; /* Stack items vertically on small screens */
+      height: auto; /* Allow height to adjust */
+  }
+
+  .logo {
+        height: 35px; /* Adjust logo height for smaller screens */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+  .menu {
+      position: static; /* Change to static positioning for dropdown */
+      width: 100%; /* Full width on mobile */
+  }
+}
