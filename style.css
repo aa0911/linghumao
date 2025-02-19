@@ -24,11 +24,11 @@ body {
     cursor: pointer;
     display: inline-block;
     margin: 15px;
-    align-self: center;
+
 }
 
 .logo {
-  height: 60px; /* Set the desired height for the logo */
+  height: 40px; /* Set the desired height for the logo */
   float: none;
   position: absolute;
   top: 50%;
@@ -89,8 +89,4 @@ body {
       height: auto; /* Allow height to adjust */
   }
 
-  .menu {
-      position: static; /* Change to static positioning for dropdown */
-      width: 100%; /* Full width on mobile */
-  }
 }
