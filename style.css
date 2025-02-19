@@ -15,7 +15,7 @@ body {
     top: 0; /* Align to the top */
     width: 100%; /* Make it full width */
     z-index: 1000; /* Ensure it stays above other content */
-    height: 70px;
+    height: 60px;
     border-bottom: 2px solid #363636;
     
   }
@@ -23,14 +23,18 @@ body {
 .menu-btn {
     cursor: pointer;
     display: inline-block;
-    margin: 17px;
+    margin: 15px;
     align-self: center;
 }
 
-.logo-container {
-  display: inline-block;
-  align-items: center;
+.logo {
+  height: 60px; /* Set the desired height for the logo */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 .bar1, .bar2, .bar3 {
     width: 30px;
