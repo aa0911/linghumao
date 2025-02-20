@@ -19,7 +19,7 @@ body {
 .topnav {
     background-color: #e3e5ffd1;
     position: relative; /* Fix the navbar to the top */
-    width: 95%; /* Make it full width */
+    width: 98%; /* Make it full width */
     z-index: 1000; /* Ensure it stays above other content */
     margin-top: 1%;
     height: 8%;
@@ -109,11 +109,46 @@ body {
   transform: translate(-50%, 0);
 }
 
-.img001 {
-  max-width: 50%; /* Responsive image */
-  height: auto;
-  
+.image-container {
+  display: inline-block;
+  text-align: center; /* Center the caption text */
+  margin: 10px; /* Space between images */
+  flex: 1 1 200px; /* Flexible basis for images */
+  max-width: 300px; /* Maximum width for each image container */
 }
+
+.responsive-image {
+  height: 500px;
+  margin: 10px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Black background with transparency */
+  justify-content: center; /* Center the modal content */
+  align-items: center; /* Center the modal content */
+}
+.modal-content {
+  max-width: 90%; /* Responsive modal content */
+  max-height: 90%; /* Responsive modal content */
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
   body{
