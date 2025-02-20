@@ -153,7 +153,8 @@ body {
 @media (max-width: 768px) {
   body{
     background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
+    height: 100vh;
     background-position: 35% 100%;
   }
   .topnav {
