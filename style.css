@@ -151,6 +151,10 @@ body {
 
 
 @media (max-width: 768px) {
+  html{
+      height: 100vh;
+  }
+
   body{
     background-repeat: no-repeat;
     background-attachment: fixed;
