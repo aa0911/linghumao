@@ -191,5 +191,10 @@ body {
 }
 
 @media (max-width: 600px) {
-
+  body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: 35% ;
+  }
 }
