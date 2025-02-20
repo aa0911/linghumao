@@ -157,10 +157,7 @@ body {
     height: 100vh;
     background-position: 35% 100%;
   }
-  .topnav {
-      flex-direction: column; /* Stack items vertically on small screens */
-      height: 8%; /* Allow height to adjust */
-  }
+ 
   .menu-btn {
     left: 6%;
   
