@@ -1,11 +1,9 @@
-html {
-  height: auto;
-}
 
 body {
     margin: 0;
     background-color: #b2b3c7d1 ;
     height: 100vh; 
+    width: 100vw; 
     overflow-x: hidden;
     margin: 0 auto; /* Center the body within the viewport */
     background-image:url("images/background.jpg");
@@ -188,13 +186,4 @@ body {
     height: 300px;
   }
 
-}
-
-@media (max-width: 600px) {
-  body{
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    background-position: center ;
-  }
 }
