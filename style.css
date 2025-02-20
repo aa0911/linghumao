@@ -169,7 +169,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
-    background-position: 35% 100%;
+    background-position: 35% ;
   }
  
   .menu-btn {
@@ -187,5 +187,9 @@ body {
   .icon-image{
     height: 300px;
   }
+
+}
+
+@media (max-width: 600px) {
 
 }
