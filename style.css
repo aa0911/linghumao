@@ -18,6 +18,8 @@ body {
 .topnav {
     background-color: #e3e5ffd1;
     position: relative; /* Fix the navbar to the top */
+    background: rgba(255, 255, 255, 0.049); /* White background with 70% opacity */
+    backdrop-filter: blur(1px); /* Blur effect */
     display: flex;
     justify-content: center;
     width: 100%; /* Make it full width */
@@ -25,6 +27,25 @@ body {
     height: 7%;
     left: 50%;
     transform: translate(-50%, 0);
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #ccc2fedf;
+    color: white;
   }
 
 .collapsible {
@@ -103,25 +124,6 @@ td {
 
 .active, .collapsible:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
 }
 
 
