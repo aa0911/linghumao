@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    font-family: 'YouYuan', sans-serif;
     background-color: #cacbdfd1 ;
     height: 100vh; 
     width: 100vw; 
@@ -26,8 +27,6 @@ body {
     transform: translate(-50%, 0);
   }
 
-
-
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -46,20 +45,22 @@ table {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 th{
-  border: 2px solid #000000bc; /* Green border for cells */
+  border: 1px solid #332d44; /* Green border for cells */
   padding: 15px; /* Add padding for better spacing */
   text-align: center; /* Align text to the left */
+  color: #ffffff
 }
 
 td {
-  border: 2px solid #000000de; /* Green border for cells */
-  padding: 15px; /* Add padding for better spacing */
+  border: 1px solid #332d44; /* Green border for cells */
+  font-size: 15px;
+
+  padding: 17px; /* Add padding for better spacing */
   text-align: left; /* Align text to the left */
 }
-th {
-  background-color: #00000018; /* Green background for header */
-  color: white; /* White text color for header */
-}
+
+
+
 td {
   background-color: #f9f9f9; /* Light gray background for cells */
 }
@@ -70,7 +71,7 @@ td {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(106, 105, 120);
+  background-color: rgb(99, 99, 99);
   opacity: 1;
   transition: opacity 0.3s;
 }

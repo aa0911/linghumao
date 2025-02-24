@@ -51,3 +51,8 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+function toggleCover(element) {
+    const coverBlock = element.querySelector('.cover-block');
+    coverBlock.style.opacity = coverBlock.style.opacity === '0' ? '1' : '0';
+}
