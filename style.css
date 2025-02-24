@@ -42,7 +42,7 @@ body {
 table {
   width: 100%;
   border-collapse: collapse; /* Remove space between cells */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 th{
   border: 1px solid #332d44; /* Green border for cells */
@@ -54,14 +54,12 @@ th{
 td {
   border: 1px solid #332d44; /* Green border for cells */
   font-size: 15px;
-
   padding: 17px; /* Add padding for better spacing */
   text-align: left; /* Align text to the left */
 }
 
-
-
 td {
+  color: #565656;
   background-color: #f9f9f9; /* Light gray background for cells */
 }
 
