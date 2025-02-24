@@ -18,14 +18,15 @@ body {
 .topnav {
     background-color: #e3e5ffd1;
     position: relative; /* Fix the navbar to the top */
-    background: rgba(255, 255, 255, 0.049); /* White background with 70% opacity */
+    background: rgba(255, 255, 255, 0.049); 
     backdrop-filter: blur(1px); /* Blur effect */
     display: flex;
     justify-content: center;
     width: 100%; /* Make it full width */
     z-index: 1000; /* Ensure it stays above other content */
-    height: 7%;
+    height: 6.5%;
     left: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
     transform: translate(-50%, 0);
   }
 
@@ -195,15 +196,14 @@ td {
 @media (max-width: 768px) {
 
 
-  .menu-btn {
-    left: 6%;
-  
+  .topnav{
+    height: 6.5%;
   }
   .floating-image {
     display: none;
   
   }
-
+ 
   .logo {
     height: 35px; /* Set the desired height for the logo */
   }
