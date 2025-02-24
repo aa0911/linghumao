@@ -250,8 +250,9 @@ td {
     border-collapse: collapse;
 }
 
-  .table th, .table td {
+  .th, .td {
     padding: 10px; /* Add padding for table cells */
+    font-size: 12px;
     text-align: left; /* Align text to the left */
     border: 1px solid #ddd;
   }
