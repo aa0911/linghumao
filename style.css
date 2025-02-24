@@ -246,7 +246,6 @@ td {
 
   table {
     width: 100%; /* Full width on mobile */
-    margin: 5px; /* Spacing above */
     border-collapse: collapse;
 }
 
@@ -258,6 +257,7 @@ td {
   }
   .container{
     width: 100%;
+    padding: 15px;
     box-sizing: border-box;
   }
 
