@@ -37,7 +37,7 @@ body {
     font-size: 17px;
     position: relative; /* Position for the pseudo-element */
     transition: color 0.3s; /* Smooth color transition */
-    text-shadow: 0 0 10px #a689ff, 0 0 10px #a689ff;
+    text-shadow: 0 0 10px #a689ff, 0 0 20px #a689ff;
 }
 .navbar a::before {
   content: '';
@@ -52,7 +52,7 @@ body {
 }
 .navbar a:hover {
   color: #ffffff; /* Change text color on hover */
-  text-shadow: 0 0 10px #ffffff, 0 0 10px #a689ff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #a689ff;
 }
   
 .navbar a.active {
@@ -70,6 +70,7 @@ body {
   background-color: #a689ff; /* Underline color */
   transform: translateX(-50%) scaleX(0); /* Start scaled down */
   transition: transform 0.3s; /* Smooth transition */
+  box-shadow: 0 -3px 10px #a689ff, 0 0 20px #ffffff;
 }
 .navbar a:hover::after,
 .navbar a.active::after {
@@ -89,7 +90,8 @@ body {
 }
 
 table {
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
   border-collapse: collapse; /* Remove space between cells */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
@@ -213,10 +215,10 @@ td {
 }
 
 .floating-image {
-  position: absolute; /* Use absolute positioning */
-  height: 700px;
-  top: 15%; 
-  right: -50px; /* Spacing from the right edge */
+  position: fixed; /* Use absolute positioning */
+  height: 680px;
+  top: 19%; 
+  right: -140px; /* Spacing from the right edge */
   z-index: 1000; /* Ensure it's on top */
 }
 
@@ -230,7 +232,10 @@ td {
     display: none;
   
   }
- 
+  .table{
+    width: 100%;
+  }
+
   .logo {
     height: 35px; /* Set the desired height for the logo */
   }
