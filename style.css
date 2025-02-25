@@ -76,18 +76,6 @@ body {
   transform: translateX(-50%) scaleX(1); /* Expand underline on hover or when active */
 }
 
-.collapsible {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
 table {
   width: 85%;
   margin: 0 auto;
@@ -103,7 +91,7 @@ th{
 
 td {
   border: 1px solid #332d44; /* Green border for cells */
-  font-size: 15px;
+  font-size: 14px;
   padding: 17px; /* Add padding for better spacing */
   text-align: left; /* Align text to the left */
 }
@@ -131,28 +119,30 @@ td {
   opacity: 0;
 }
 
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+}
+
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #555;
 }
 
 .content {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-
-.active, .collapsible:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  padding: 0 12px;
+  max-height: 0; /* Initial height */
+  overflow: hidden; /* Hide content */
+  transition: max-height 0.2s ease-out; /* Animate height */
+  background-color: #f1f1f1;
+  width: 100%; /* Ensures full width under the button */
+  box-sizing: border-box;
 }
 
 
@@ -164,10 +154,6 @@ td {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
   text-align: center; /* Center text inside the container */
   box-sizing: border-box;
-  position: relative;
-  display: flex; /* Use flexbox for vertical centering */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
 
 }
 
@@ -231,6 +217,17 @@ td {
   top: 19%; 
   right: -140px; /* Spacing from the right edge */
   z-index: 1000; /* Ensure it's on top */
+}
+
+.sound-button {
+  background-color: transparent; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  font-size: 14px; /* Icon size */
+}
+
+.sound-button:hover {
+  color: #555; /* Change color on hover */
 }
 
 @media (max-width: 768px) {

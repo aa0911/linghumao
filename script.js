@@ -48,7 +48,7 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-    }
+    } 
   });
 }
 
@@ -56,3 +56,12 @@ function toggleCover(element) {
     const coverBlock = element.querySelector('.cover-block');
     coverBlock.style.opacity = coverBlock.style.opacity === '0' ? '1' : '0';
 }
+
+document.querySelectorAll('.sound-button').forEach(button => {
+    button.addEventListener('click', function () {
+        const audioSrc = this.getAttribute('data-audio');
+        const audioPlayer = document.getElementById('audioPlayer');
+        audioPlayer.src = audioSrc;
+        audioPlayer.play();
+    });
+});
