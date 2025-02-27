@@ -161,6 +161,7 @@ td {
 }
 
 .end-container {
+  position: relative;
   width: 100%; /* Full width */
   background-color: #f8f8f8; /* Light background for contrast */
   text-align: center; /* Center text */
