@@ -36,6 +36,17 @@ function openModal(imageSrc) {
 function closeModal() {
     document.getElementById('myModal').style.display = "none";
 }
+document.getElementById('tableSelector').addEventListener('change', function () {
+    const tables = document.querySelectorAll('table');
+    tables.forEach(table => {
+        table.style.display = 'none'; // Hide all tables
+    });
+
+    const selectedTable = this.value;
+    if (selectedTable) {
+        document.getElementById(selectedTable).style.display = 'table'; // Show selected table
+    }
+});
 
 var coll = document.getElementsByClassName("collapsible");
 var i;

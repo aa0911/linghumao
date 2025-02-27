@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">            
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>灵狐保护协会</title>
     <link rel="stylesheet" href="style.css">
@@ -21,9 +21,14 @@
         
     </div>
     <div class="container">
-        <button type="button" class="collapsible">常规语音</button>
-        <div class="content">
-            <table>
+
+        <select id="tableSelector">
+            <option value="信赖值语音">信赖值语音</option>
+            <option value="常规语音">常规语音</option>
+            <option value="乙巳">乙巳</option>
+        </select>
+
+            <table id="常规语音">
                 <tr>
                     <td>
                         信赖值语音1
@@ -32,8 +37,8 @@
                         </button>
                     </td>
                     <td>还记得回来？你一回来，我就没清静了。</td>
-             
                 </tr>
+
                 <tr>
                     <td>
                         信赖值语音2
@@ -42,8 +47,8 @@
                         </button>
                     </td>
                     <td>左君每次闭关，就把你托付给我带。明明起初是让元直带你的⋯⋯如果她不单手抱着你去砍人。</td>
-            
                 </tr>
+
                 <tr>
                     <td>
                         信赖值语音3
@@ -51,11 +56,219 @@
                             <i class="fas fa-volume-up"></i>
                         </button>
                     </td>
-                    <td>左君每次闭关，就把你托付给我带。明明起初是让元直带你的⋯⋯如果她不单手抱着你去砍人。</td>
-            
+                    <td>我送的缎子太素了？仔细看，每一匹都是不一样的，明织、暗织、混绫罗织⋯⋯日光和月光下，会落出不同的花影。</td>
                 </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音4
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>我更喜欢素净些的东西，偶尔有些艳色点缀就好⋯⋯从前那位可不是，好好的地方，都弄得无比浮夸，眼花缭乱的。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音5
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>和元直又闯祸了？闯啊，闹啊，我早说过，出了事别找我。
+                    <br>哼……你再跟着她胡闹，迟早掉脑袋。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音6
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>药杖是武帝亲赐。巫蛊之祸后，他忽然懊悔了，将子女们身边的故人召入朝中，都亲赐了御器。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音7
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>又出事了？招惹了谁？哦，这次是跟祢衡闯了祸啊。好了，你们两个我都不要了。出去，出去⋯⋯唉。说罢。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音8
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>左君把你宠坏了，无法无天。
+                        <br>不要爬三生石上喝酒，它会觉得你想当酒鬼，然后真把你变成鬼的。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音9
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>灵花酥好了，吃一块吧？从前一次会做很多，你们几个如今不太回来，我也不太做点心了，手都生疏了。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音10
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>发髻谁替你挽的？水镜？都说了，他身体不好，要静养⋯⋯
+                        他啊，小时候也时常来我这，是个身世很可怜的孩子⋯⋯</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音11
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>许多年没跳过古蜀的舞了⋯⋯
+                        和现在的舞很不同，看起来很怪异吧？更接近祭祀的傩舞，不过更柔美些，像嘉陵水一样⋯⋯</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音12
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>都说了不必送东西给我，我不缺什么⋯⋯当年搬到灵河畔独居，就是想避开和人交际。自从仙门和隐鸢阁合并，声音就嘈杂了。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音13
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>令狐这个姓氏，是入仙门后随师父改的。茂是我的名字，在古蜀语中，指的是笼罩在山林里的雾气。很奇的意思吧。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音14
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>那时，待寝前有繁琐的礼仪⋯⋯那人身份尊贵，喜怒也无常⋯⋯有时夜里做好准备，穿着白衣，在榻边等上半夜，她都不会来。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音15
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>你若有身边人，别这么对他们。不，或许就这样也好，只是势力之间的联合，没来得及有什么感情⋯⋯就算死别，也不会伤怀。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音16
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>我老了。我十一发奉命往仙门，为父王求长生。很多年后，奉命跟随公主，维持仙门与隐鸢阁的联合⋯⋯这一生，都不曾力自己活过。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音17
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>我并不厌恶过往。虽然是为他人而活的一生，自己却并未经历多少苦难。反而是身边人，一个接一个的离去⋯⋯身边，只余下你们了。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音18
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>有一次，左君召我过去，说了些对当年之事愧疚的话。他觉得，若不是他当年允准，我不会变成如今的样子⋯⋯但是，我没有憎恨过任何人。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音19
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>这次又怎么闯祸了？啊，把人始乱终弃了？我就知道，薄情寡义，小没良心。别解释了，就是这样。哈⋯⋯好了，回来躲一阵吧。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        信赖值语音20
+                        <button class="sound-button" data-audio="audio/信赖值语音3.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>天没亮，就要走了吗？山外有什么要命的事⋯⋯回去再睡一会吧。我把纱帐放下，你再睡吧。等童子备好早膳了，我会叫你的。</td>
+                </tr>
+
             </table>
 
+            <table id="乙巳">
+                <tr>
+                    <td>
+                        令狐茂贺词•壹
+                        <button class="sound-button" data-audio="audio/信赖值语音1.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>既是新岁正式拜见，不必免礼。隐鸢阁壶关三老令狐茂，祝广陵王殿下清辉常在，福寿绵长。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        令狐茂贺词•贰
+                        <button class="sound-button" data-audio="audio/信赖值语音1.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>难得换了正装，不过没带太多贺礼，只带了一壶灵花酒。哎？这就打算倒一杯了吗？⋯⋯
+                        哈哈⋯⋯新岁啊，长辈怎么可能只送你一壶酒，里面都是彩玉和红宝石。</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        令狐茂贺词•叁
+                        <button class="sound-button" data-audio="audio/信赖值语音1.mp3">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </td>
+                    <td>金丝穿月绣灵河，千针似刺碎银霜。
+                        <br>落影疑，落花惊，落下梦乡，旧骨新妆。</td>
+                </tr>
+
+            </table>
         </div>
     </div>
 
