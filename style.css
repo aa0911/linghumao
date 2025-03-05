@@ -148,10 +148,10 @@ td {
 
 
 .container {
+  flex:1;
   padding: 20px; /* Spacing inside the container */
   background-color: #f4f4f495; /* Light gray background */
   width: 85%; 
-  min-height: 100%;
   margin: auto; /* Center horizontally */
   margin-top: 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
@@ -233,6 +233,15 @@ td {
 .sound-button:hover {
   color: #555; /* Change color on hover */
 }
+
+footer {
+  text-align: center;
+  background-color: #cacbdf;
+  padding: 15px; 
+  color: white;
+}
+
+
 
 @media (max-width: 768px) {
 
